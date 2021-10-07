@@ -4,9 +4,8 @@
   "description": "Developer team internship work",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js ",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "nodemon": "node app.js"
+    "start": "node index.js ",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Krishnaraj Yadav",
   "license": "ISC",
