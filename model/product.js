@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+// Creating Collection 
 const productCollection = new mongoose.Schema({
     item : {
         type : String 

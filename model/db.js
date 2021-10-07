@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const MONGOURI = 'mongodb://localhost:27017/product';
 
-
+// Making connection 
 const connectMongo = async (req,res) => {
     try 
     {
