@@ -1,0 +1,14 @@
+<%- include("partials/header") -%>
+<div class="container bg-success">
+    <h1>Add Product</h1>
+    <form method="post" action="/addPost">
+        <input required type="text"  name="item"  placeholder="Name" </br>
+        <input required type="text" , name="price" , placeholder="Price" </br>
+        <input required type="text" , name="quantity" , placeholder="Quantity" ><br>
+        <button type="submit" name="submit" class="btn btn-primary">
+			Add  
+		</button>
+    </form>
+    
+    <a href='/showall' type ="button" class="btn btn-warning"> All Products </a>
+</div>

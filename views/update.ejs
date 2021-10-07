@@ -1,0 +1,11 @@
+<%- include("partials/header") -%>
+<div class="container">
+<form action ="/editproduct/<%= productupdate.id %>/?_method=PUT" method = "POST">
+    <input required type="text"  name="item"  placeholder="Name" value= "<%= productupdate.item %>"</br>
+    <input required type="text" , name="price" , placeholder="Price" value= "<%= productupdate.price %>"</br>
+    <input required type="text" , name="quantity" , placeholder="Quantity" value= "<%= productupdate.quantity %>"><br>
+    <button type="submit" name="submit">
+        Update  
+    </button>
+</form>
+</div>
